@@ -44,7 +44,7 @@ try:
         streamlit.dataframe(back_from_function)
 except URLError as e:
     streamlit.error()
-streamlit.stop() 
+
 
 streamlit.header("The food load list contains:")
 
